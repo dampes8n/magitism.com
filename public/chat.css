@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@0;1&family=Lalezar&display=swap');
+
+#chat_box {
+ /* text-shadow: 1px 1px 2px rgba(52, 171, 235, 0.5); */
+}
+
+.chat_line {
+ color: #000;
+ font-size: 20px !important;
+ font-family: 'Crimson Pro';
+ font-weight: bold;
+}
+
+.chat_line .nick {
+    color: rgba(52, 171, 235, 1);
+    font-family: 'Lalezar';
+    text-shadow: 
+    1px 1px 0px #000, 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000, 
+    1px -1px 0px #000,
+    0px 1px 0px #000, 
+    1px 0px 0px #000, 
+    -1px 0px 0px #000, 
+    0px -1px 0px #000 ;
+    margin-right: 1px;
+    letter-spacing: 1px;
+}
+
+.message { display: inline !important; }
+.highlight { background-color: rgba(52, 171, 235, 0.25) !important; border: 1px solid rgba(52, 171, 235, 1); }
